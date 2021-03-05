@@ -1,0 +1,18 @@
+.CardHeader {
+  text-align: center;
+
+
+  &__badge {
+    padding: 8px 16px;
+    display: inline;
+    border-radius: 4px;
+
+    &-icon {
+      margin-right: 6px;
+    }
+
+    &-wording {
+      font-weight: bold;
+    }
+  }
+}

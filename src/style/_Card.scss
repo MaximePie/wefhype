@@ -1,0 +1,42 @@
+.Card {
+  background: white;
+  height: 400px;
+  min-width: 320px;
+  width: calc(100% - 2em);
+  max-width: 800px;
+  border-radius: 4px;
+  box-shadow: $elevated;
+
+  padding: 8px;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: grid;
+  grid-template-rows: 64px 1fr 80px;
+  color: #3c3c3c;
+
+  &__body-text, &__action-container {
+    text-align: center;
+  }
+
+  &__action {
+    border: none;
+
+    height: 48px;
+    font-weight: bold;
+    font-size: 1.15em;
+    background-color: #57b861;
+    border-radius: 4px;
+    box-shadow: $elevated;
+    outline: none;
+    transition: 50ms ease-in-out all;
+
+    &:active {
+      box-shadow: 0 0;
+      transform: scale(0.975);
+      background-color: #69b569;
+      transition: 50ms ease-in-out all;
+    }
+  }
+}
