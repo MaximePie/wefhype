@@ -3,7 +3,7 @@ import React, {useState} from "react";
 import Card from "./component/Card"
 import CompleteList from "./component/CompleteList"
 import topicsList from "./data/topics";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch} from "react-router-dom";
 
 const initialTopic =   {
   title: "Shu ha Ri",
@@ -15,7 +15,7 @@ function App() {
   const [topic, setTopic] = useState(initialTopic);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Switch>
           <Route path="/" exact>
@@ -26,7 +26,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 
   /**
