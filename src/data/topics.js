@@ -496,19 +496,19 @@ const topicsList = [
   // Personnalités
 
   {
-    title: "Idriss Aberkane",
+    title: "Idriss Aberkane : L'âge de la connaissance",
     category: "Personnalités",
   },
   {
-    title: "Jean-Yves Ponce",
+    title: "Jean-Yves Ponce - Comment devenir un champion de la mémoire",
     category: "Personnalités",
   },
   {
-    title: "Julien Estier",
+    title: "Julien Estier - Comment travailler avec les jeunes générations",
     category: "Personnalités",
   },
   {
-    title: "Céline Alvarez",
+    title: "Céline Alvarez - Comment mettre en lumière le potentiel des enfants",
     category: "Personnalités",
   },
 ];
